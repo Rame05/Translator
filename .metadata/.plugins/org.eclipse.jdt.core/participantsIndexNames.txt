@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+F:\workspace\Translate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2247214480.index
+\Translator\src
+F:\workspace\Translate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3168125980.index
+\Translator\src
+F:\workspace\Translate_GIT\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2247214480.index
+\Translator\src

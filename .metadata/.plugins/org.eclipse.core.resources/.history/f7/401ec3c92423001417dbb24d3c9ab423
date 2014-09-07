@@ -1,0 +1,17 @@
+package helpers;
+
+import java.sql.*;
+
+public class UserHelper {
+	public UserHelper(){
+		try{
+			Class.forName("Generic JDBC Driver");
+			Connection conn = DriverManager.getConnection("jdbc:h2:~/translator", "sa", "");
+			
+		}
+		catch(SQLException ex){
+			System.out.println("Can`t connect to the database");
+		}
+	}
+}
+

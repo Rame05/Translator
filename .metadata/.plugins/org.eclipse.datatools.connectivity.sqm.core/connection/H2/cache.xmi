@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:SQLTables="http:///org/eclipse/datatools/modelbase/sql/tables.ecore">
+  <SQLSchema:Database name="translator" vendor="Generic JDBC" version="1.0" catalogs="/1">
+    <eAnnotations source="ConnectionURI">
+      <details key="ConnectionKey" value="H2"/>
+    </eAnnotations>
+  </SQLSchema:Database>
+  <SQLSchema:Catalog name="TRANSLATOR" Database="/0" schemas="/2 /32"/>
+  <SQLSchema:Schema name="INFORMATION_SCHEMA" tables="/3 /4 /5 /6 /7 /8 /9 /10 /11 /12 /13 /14 /15 /16 /17 /18 /19 /20 /21 /22 /23 /24 /25 /26 /27 /28 /29 /30 /31" Catalog="/1"/>
+  <SQLTables:PersistentTable name="CATALOGS" description="" schema="/2">
+    <columns name="CATALOG_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="COLLATIONS" description="" schema="/2">
+    <columns name="NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="KEY" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="COLUMNS" description="" schema="/2">
+    <columns name="TABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="COLUMN_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ORDINAL_POSITION" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="COLUMN_DEFAULT" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="IS_NULLABLE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DATA_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="CHARACTER_MAXIMUM_LENGTH" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="CHARACTER_OCTET_LENGTH" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="NUMERIC_PRECISION" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="NUMERIC_PRECISION_RADIX" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="NUMERIC_SCALE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="CHARACTER_SET_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="COLLATION_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TYPE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="NULLABLE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="IS_COMPUTED" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="SELECTIVITY" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="CHECK_CONSTRAINT" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SEQUENCE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SOURCE_DATA_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="COLUMN_PRIVILEGES" description="" schema="/2">
+    <columns name="GRANTOR" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="GRANTEE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="COLUMN_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PRIVILEGE_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="IS_GRANTABLE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="CONSTANTS" description="" schema="/2">
+    <columns name="CONSTANT_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CONSTANT_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CONSTANT_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DATA_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SQL" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="CONSTRAINTS" description="" schema="/2">
+    <columns name="CONSTRAINT_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CONSTRAINT_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CONSTRAINT_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CONSTRAINT_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="UNIQUE_INDEX_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CHECK_EXPRESSION" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="COLUMN_LIST" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SQL" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="CROSS_REFERENCES" description="" schema="/2">
+    <columns name="PKTABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PKTABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PKTABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PKCOLUMN_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="FKTABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="FKTABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="FKTABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="FKCOLUMN_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ORDINAL_POSITION" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="UPDATE_RULE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="DELETE_RULE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="FK_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PK_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DEFERRABILITY" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="DOMAINS" description="" schema="/2">
+    <columns name="DOMAIN_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DOMAIN_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DOMAIN_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="COLUMN_DEFAULT" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="IS_NULLABLE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DATA_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="PRECISION" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="SCALE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="TYPE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SELECTIVITY" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="CHECK_CONSTRAINT" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SQL" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="FUNCTION_ALIASES" description="" schema="/2">
+    <columns name="ALIAS_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ALIAS_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ALIAS_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="JAVA_CLASS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="JAVA_METHOD" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DATA_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="TYPE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="COLUMN_COUNT" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="RETURNS_RESULT" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="SOURCE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="FUNCTION_COLUMNS" description="" schema="/2">
+    <columns name="ALIAS_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ALIAS_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ALIAS_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="JAVA_CLASS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="JAVA_METHOD" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="COLUMN_COUNT" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="POS" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="COLUMN_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DATA_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="TYPE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PRECISION" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="SCALE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="RADIX" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="NULLABLE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="COLUMN_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="COLUMN_DEFAULT" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="HELP" description="" schema="/2">
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="SECTION" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TOPIC" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SYNTAX" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TEXT" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="INDEXES" description="" schema="/2">
+    <columns name="TABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="NON_UNIQUE" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="INDEX_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ORDINAL_POSITION" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="COLUMN_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CARDINALITY" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="PRIMARY_KEY" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="INDEX_TYPE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="IS_GENERATED" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="INDEX_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="ASC_OR_DESC" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PAGES" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="FILTER_CONDITION" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SQL" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="SORT_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="CONSTRAINT_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="INDEX_CLASS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="IN_DOUBT" description="" schema="/2">
+    <columns name="TRANSACTION" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="STATE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="LOCKS" description="" schema="/2">
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SESSION_ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="LOCK_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="QUERY_STATISTICS" description="" schema="/2">
+    <columns name="SQL_STATEMENT" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="EXECUTION_COUNT" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="MIN_EXECUTION_TIME" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="MAX_EXECUTION_TIME" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="CUMULATIVE_EXECUTION_TIME" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="AVERAGE_EXECUTION_TIME" description="">
+      <containedType xsi:type="SQLDataTypes:ApproximateNumericDataType" name="DOUBLE" primitiveType="DOUBLE_PRECISION"/>
+    </columns>
+    <columns name="STD_DEV_EXECUTION_TIME" description="">
+      <containedType xsi:type="SQLDataTypes:ApproximateNumericDataType" name="DOUBLE" primitiveType="DOUBLE_PRECISION"/>
+    </columns>
+    <columns name="MIN_ROW_COUNT" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="MAX_ROW_COUNT" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="CUMULATIVE_ROW_COUNT" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="AVERAGE_ROW_COUNT" description="">
+      <containedType xsi:type="SQLDataTypes:ApproximateNumericDataType" name="DOUBLE" primitiveType="DOUBLE_PRECISION"/>
+    </columns>
+    <columns name="STD_DEV_ROW_COUNT" description="">
+      <containedType xsi:type="SQLDataTypes:ApproximateNumericDataType" name="DOUBLE" primitiveType="DOUBLE_PRECISION"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="RIGHTS" description="" schema="/2">
+    <columns name="GRANTEE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="GRANTEETYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="GRANTEDROLE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="RIGHTS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="ROLES" description="" schema="/2">
+    <columns name="NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="SCHEMATA" description="" schema="/2">
+    <columns name="CATALOG_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SCHEMA_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SCHEMA_OWNER" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DEFAULT_CHARACTER_SET_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DEFAULT_COLLATION_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="IS_DEFAULT" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="SEQUENCES" description="" schema="/2">
+    <columns name="SEQUENCE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SEQUENCE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SEQUENCE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CURRENT_VALUE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="INCREMENT" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="IS_GENERATED" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CACHE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="MIN_VALUE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="MAX_VALUE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="IS_CYCLE" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="SESSIONS" description="" schema="/2">
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="USER_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SESSION_START" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="STATEMENT" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="STATEMENT_START" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CONTAINS_UNCOMMITTED" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="SESSION_STATE" description="" schema="/2">
+    <columns name="KEY" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SQL" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="SETTINGS" description="" schema="/2">
+    <columns name="NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="VALUE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="TABLES" description="" schema="/2">
+    <columns name="TABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="STORAGE_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SQL" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="LAST_MODIFICATION" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="TYPE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_CLASS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ROW_COUNT_ESTIMATE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="TABLE_PRIVILEGES" description="" schema="/2">
+    <columns name="GRANTOR" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="GRANTEE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PRIVILEGE_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="IS_GRANTABLE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="TABLE_TYPES" description="" schema="/2">
+    <columns name="TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="TRIGGERS" description="" schema="/2">
+    <columns name="TRIGGER_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TRIGGER_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TRIGGER_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TRIGGER_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="BEFORE" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="JAVA_CLASS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="QUEUE_SIZE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="NO_WAIT" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SQL" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="TYPE_INFO" description="" schema="/2">
+    <columns name="TYPE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="DATA_TYPE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="PRECISION" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="PREFIX" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="SUFFIX" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="PARAMS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="AUTO_INCREMENT" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="MINIMUM_SCALE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="MAXIMUM_SCALE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="RADIX" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="POS" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="CASE_SENSITIVE" description="">
+      <containedType xsi:type="SQLDataTypes:BooleanDataType" name="BOOLEAN" primitiveType="BOOLEAN"/>
+    </columns>
+    <columns name="NULLABLE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns name="SEARCHABLE" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="USERS" description="" schema="/2">
+    <columns name="NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ADMIN" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="VIEWS" description="" schema="/2">
+    <columns name="TABLE_CATALOG" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_SCHEMA" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="TABLE_NAME" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="VIEW_DEFINITION" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="CHECK_OPTION" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="IS_UPDATABLE" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="STATUS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="REMARKS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="2147483647"/>
+    </columns>
+    <columns name="ID" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </SQLTables:PersistentTable>
+  <SQLSchema:Schema name="PUBLIC" indices="/33 /35" tables="/34" Catalog="/1"/>
+  <SQLConstraints:Index name="CONSTRAINT_INDEX_8" Schema="/32" unique="true" table="/34">
+    <members column="/34/EMAIL"/>
+  </SQLConstraints:Index>
+  <SQLTables:PersistentTable name="LOGINS" description="" schema="/32" index="/33 /35">
+    <columns name="EMAIL" description="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="45"/>
+    </columns>
+    <columns name="PASS" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="45"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" name="CONSTRAINT_86" members="/34/EMAIL"/>
+  </SQLTables:PersistentTable>
+  <SQLConstraints:Index name="PRIMARY_KEY_8" Schema="/32" unique="true" table="/34">
+    <members column="/34/EMAIL"/>
+  </SQLConstraints:Index>
+</xmi:XMI>

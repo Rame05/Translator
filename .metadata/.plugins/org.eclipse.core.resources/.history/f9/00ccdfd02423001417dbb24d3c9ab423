@@ -1,0 +1,15 @@
+package helpers;
+
+import java.sql.*;
+
+public class UserHelper {
+	public UserHelper(){
+		try{
+			Connection conn = DriverManager.getConnection("jdbc:h2:~/translator", "sa", "");
+			authenticateUserStatement = conn.prepareStatement("select * from user where username=? and password=?");
+		} catch (Exception e) {
+			System.out.println(e.getClass().getName() + ": " + e.getMessage());
+		}
+	}
+}
+
