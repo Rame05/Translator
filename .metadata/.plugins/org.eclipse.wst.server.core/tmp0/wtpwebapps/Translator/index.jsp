@@ -1,6 +1,7 @@
-﻿<%@ page language="java" contentType="text/html" %>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!Doctype html>
-<html>
+<html >
 	<head>
 		<link rel="icon" href="images/pen.ico" type="image/x-icon">
 		<title>Kugo</title>
@@ -13,11 +14,11 @@
 		<script type="text/javascript" src="js.js"></script>
 	</head>
 
-	<body>
+	<body style="background: url(images/NEW-YORK-CITY.jpg) no-repeat;background-size: 100% 683px;margin: 0 auto;">
 		<header>
 			<ul id="topmenu">
 
-				<li class="logo">
+				<li class="logo" onclick='windows.location="index.jsp"'>
 					<img src="images/logo_264x7.png">
 				</li>
 				<li>

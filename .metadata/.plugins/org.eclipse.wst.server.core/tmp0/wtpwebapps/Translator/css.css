@@ -1,7 +1,4 @@
 body {
-	background: url(images/NEW-YORK-CITY.jpg) no-repeat;
-	background-size: 100% 683px;
-	margin: 0 auto;
 	font-family: ourfont, 'Century Gothic', 'Lucida Grande', Arial, sans-serif;
 }
 @font-face {
@@ -273,6 +270,28 @@ padding: 1em;
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+.choose-container form {
+	width: 50%;
+	margin: 0 auto;
+}
+.choose-container form input{
+	display: inline-block;
+}
+.choose-container .source-container {
+	display: inline-block;
+	width: 49%;
+}
+form.small .checked, form.small .source-container {
+	display: block;
+}
+form.small div {
+	display: none;
+}
+form.small {
+	width: 20%;
+	margin: 0;
+	font-size: 10px;
+}
 .top_filler{
 	height: 75px;
 }
@@ -296,4 +315,42 @@ textarea{
 }
 #additionReq{
 	font-size: 14px;
+}
+.registr-nav{
+	text-align: center;
+	padding: 20px;
+	
+}
+.registr-nav img{
+margin-top: 20px;
+opacity: 0.6;
+margin-bottom: 30px;
+}
+.registr-nav  .r-icon{
+	height: 70px;
+	
+}
+.registr-nav  .r-span{
+	width: 30px;
+	opacity: 0.6;
+}
+.registr-nav .sel{
+	opacity: 1 ;
+	height: 100px;
+	margin-bottom: 0px;
+}
+.registr-nav .iconItem{
+	display: inline-table;
+}
+.save-lang{
+	float: right;
+}
+.quality_level{
+	text-align:center;
+	margin-bottom: 0px !important;
+	border: rgba(165, 188, 230, 0.5) solid 3px;
+	text-align: center;
+	width: 32%;
+	padding: 50px;
+	display: inline-block;
 }

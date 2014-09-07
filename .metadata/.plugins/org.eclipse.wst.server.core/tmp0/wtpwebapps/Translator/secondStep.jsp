@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -18,7 +18,7 @@
 			<ul id="topmenu">
 
 				<li class="logo">
-					<img src="images/logo_264x7.png">
+					<img src="images/logo_264x7.png" onclick='window.location="index.jsp"'>
 				</li>
 				<li class='sign-in'>
 					<button type="button" class="btn btn-default navbar-btn">Sign in</button>
@@ -44,6 +44,25 @@
 		<div class="top_filler"></div>
 		
 		<!-- Main body -->
+		<div class="registr-nav">
+			<div><b>Three steps to do a translation</b></div>
+			
+			<div class="iconItem">
+				<img class="r-icon" src="images/1-to-translate.png" onclick='window.location = "registrCl.jsp"'>
+				<div>Chose<br>language and<br>type of translation</div>
+			</div>
+			<img class="r-span" src="images/arrow-icon.png">
+			<div class="iconItem">
+				<img class="r-icon sel" src="images/2-to-translate.png" onclick='window.location = "secondStep.jsp"'>
+				<div>Upload<br>file or type<br>your text</div>
+			</div>
+				<img class="r-span" src="images/arrow-icon.png">
+			<div class="iconItem">
+				<img class="r-icon" src="images/3-to-translate.png" onclick='window.location = "thirdStep.jsp"'>
+				<div>Pay<br>and take your<br>delivery</div>
+			</div>
+		</div>
+		
 		<div class="choose_container">
 			<div class="left_column">
 				<h2>I want to translate:</h2>
@@ -67,6 +86,7 @@
 			</div>
 		</div>
 		<div>KUGO translation garanties 100% refund </div>
+		<div class="copyrights">Copyright 2014, “KUGO LTD”</div>
 		
 </body>
 </html>

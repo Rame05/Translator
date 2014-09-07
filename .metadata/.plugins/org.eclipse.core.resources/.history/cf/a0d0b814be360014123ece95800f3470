@@ -1,0 +1,15 @@
+drop table logins if exists;
+CREATE table if NOT EXISTS logins(EMAIL VARCHAR(45) NOT NULL UNIQUE,PASS VARCHAR(45) NOT NULL,PRIMARY KEY(EMAIL)) ;
+insert into logins values('rame','1');
+
+drop table lang if exists;
+CREATE table if NOT EXISTS lang(ID int NOT NULL UNIQUE,LANG VARCHAR(45) UNIQUE NOT NULL,PRIMARY KEY(ID)) ;
+insert into lang values(1,'Ukrainian');
+insert into lang values(2,'Russian');
+insert into lang values(1,'English');
+
+
+
+drop table orders if exists;
+CREATE table if NOT EXISTS orders(ID INT UNIQUE NOT NULL,EMAIL VARCHAR(45) NOT NULL UNIQUE,PASS VARCHAR(45) NOT NULL,PRIMARY KEY(EMAIL)) ;
+insert into logins values('rame','1');

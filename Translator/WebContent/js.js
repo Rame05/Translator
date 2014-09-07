@@ -94,7 +94,10 @@ $( document ).ready(function () {
 			$('#right_footer').css("width",9*width/10*kof+'px');
 		}
 	} );
-	$('.exit').click((function(event){
-		widow.location='index.jsp';
-	}));
+	$('.exit').click(function(event){
+		window.location='index.jsp';
+	});
+//	$('.choose').mouseover(function(event){
+//		this.toggle( "scale" );
+//	});
 });
