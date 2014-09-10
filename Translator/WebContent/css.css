@@ -284,9 +284,6 @@ padding: 1em;
 form.small .checked, form.small .source-container {
 	display: block;
 }
-form.small div {
-	display: none;
-}
 form.small {
 	width: 20%;
 	margin: 0;

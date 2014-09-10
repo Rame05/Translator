@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<div class="choose-container">
-			<form class="lang-form">
+			<form class="lang-form" name="lang-form">
 			<label style="text-align:center">Chose language</label><br>
 				<div class="source-container">
 					<label>Source:</label>
@@ -71,15 +71,15 @@
 				<div class="source-container">
 					<label>Target:</label>
 					<div>
-						<input type="checkbox" class="checkbox" id="ukr"  value="Ukrainian"/>
+						<input type="checkbox" name="lan-trg" class="checkbox" id="ukr"  value="Ukrainian"/>
 						<label for="ukr">Ukrainian</label>
 					</div>
 					<div>
-						<input type="checkbox" class="checkbox" id="rus"  value="Russian"/>
+						<input type="checkbox" name="lan-trg" class="checkbox" id="rus"  value="Russian"/>
 						<label for="ukr">Russian</label>
 					</div>
 					<div>
-						<input type="checkbox" class="checkbox" id="eng" value="English"/>
+						<input type="checkbox" name="lan-trg" class="checkbox" id="eng" value="English"/>
 						<label for="ukr">English</label>
 					</div>
 				</div>
@@ -88,48 +88,49 @@
 			
 		</div>
 	<div class="choose-container" style="margin-top: 40px">
-			<form class="lang-form">
+			<form class="theme-form" name="theme-form">
 			<label>Chose a type of translation</label><br>
 				<div class="source-container">
 					<div>
-						<input type="checkbox" class="checkbox" id="ukr" value="General" />
-						<label for="ukr">General</label>
+						<input type="checkbox" class="checkbox" id="gen" value="General" name="theme" />
+						<label for="gen">General</label>
 					</div>
 				</div>
 				<div class="source-container">
 					<div>
-						<input type="checkbox" class="checkbox" id="ukr"  value="Specific"/>
-						<label for="ukr">Specific</label>
+						<input type="checkbox" class="checkbox" id="spec"  value="Specific" name="theme"/>
+						<label for="spec">Specific</label>
 					</div>
 					<div>
-						<input type="checkbox" class="checkbox" id="rus"  value="Technology"/>
-						<label for="ukr">Technology</label>
+						<input type="checkbox" class="checkbox" id="tech"  value="Technology" name="theme"/>
+						<label for="tech">Technology</label>
 					</div>
 					<div>
-						<input type="checkbox" class="checkbox" id="eng" value="Medicine"/>
-						<label for="ukr">Medicine</label>
+						<input type="checkbox" class="checkbox" id="med" value="Medicine" name="theme"/>
+						<label for="med">Medicine</label>
 					</div>
 					<div>
-						<input type="checkbox" class="checkbox" id="eng" value="Literature"/>
-						<label for="ukr">Literature</label>
+						<input type="checkbox" class="checkbox" id="lit" value="Literature" name="theme"/>
+						<label for="lit">Literature</label>
 					</div>
 					<div>
-						<input type="checkbox" class="checkbox" id="eng" value="Law"/>
-						<label for="ukr">Law</label>
+						<input type="checkbox" class="checkbox" id="law" value="Law" name="theme"/>
+						<label for="law">Law</label>
 					</div>
 					<div>
-						<input type="checkbox" class="checkbox" id="eng" value="Economix/Finance"/>
-						<label for="ukr">Economix/Finance</label>
+						<input type="checkbox" class="checkbox" id="fin" value="Economix/Finance" name="theme"/>
+						<label for="fin">Economix/Finance</label>
 					</div>
 					<div>
-						<input type="checkbox" class="checkbox" id="eng" value="IT"/>
-						<label for="ukr">IT</label>
+						<input type="checkbox" class="checkbox" id="it" value="IT"/>
+						<label for="it">IT</label>
 					</div>
 				</div>
 				<button class="save-type" onclick="return false;">Move on!</button>
 			</form>
 		</div>
-		<div class="choose_container">	
+		<div class="choose_container">
+		<form action="" class="quality-form">
 	    <div class="quality_level">
 	       <b>Standart</b>
 	       <br>
@@ -170,9 +171,10 @@
 			<div style="display:inline-block">
 				<input style="text-align:center" type="radio" id="extr" name="quality" value="Extra" />
 		   </div>
-		   </div>		
+		   </div>
+		</form>			
 		</div>
-		<button class="" onclick="return false;">Send Data</button>
+		<button class="send-data" onclick="return false;">Send Data</button>
 	</body>
 
 </html>

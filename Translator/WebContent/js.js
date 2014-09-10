@@ -97,7 +97,52 @@ $( document ).ready(function () {
 	$('.exit').click(function(event){
 		window.location='index.jsp';
 	});
+	$('.send-data').click(function () {
+		var languages = $('.lang-form').serialize(),
+			theme = $('.theme-form').serialize(),
+			themeArr = theme.split('&'),
+			langArr = languages.split('&'),
+			langSource = langArr[0].split('=')[1], langTarg = [], themeSrc = [],
+			qualityValue = $('.quality-form').serialize().split('=')[1],
+			resultJson = {};
+		langArr.shift();
+		$.each(langArr, function (key, element) {
+			langTarg.push(element.split('=')[1]);
+		});
+		$.each(themeArr, function (key, element) {
+			themeSrc.push(element.split('=')[1]);
+		});
+		resultJson.languages = {
+			source: langSource,
+			target: langTarg
+		};
+		resultJson.theme = themeSrc;
+		resultJson.type = qualityValue;
+		$.ajax({
+		  type: "POST",
+		  url: '/clientReg',
+		  data: resultJson,
+		  dataType: 'json',
+		  success: function () {
+		  	alert('Success!');
+		  }
+		});
+	});
 //	$('.choose').mouseover(function(event){
 //		this.toggle( "scale" );
 //	});
 });
+
+
+
+
+
+/*{
+	languages: {
+		source: 'ukr',
+		target: ['en']
+	},
+	theme: ['specific', 'medicine'],
+	type: 'standard'
+
+}*/
