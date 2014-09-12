@@ -1,0 +1,7 @@
+package utilities;
+
+public class FileRecognisedService {
+	public void DocxToText(string fileName){
+		
+	}
+}

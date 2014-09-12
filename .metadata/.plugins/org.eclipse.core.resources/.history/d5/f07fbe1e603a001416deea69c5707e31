@@ -1,0 +1,78 @@
+package pojos;
+import java.util.Date;
+import java.util.List;
+public class Order {
+	
+	long id=-1;
+	String user;
+	String source;
+	List<String> target;
+	String type;
+	String quality;
+	long symb=-1;
+	Date formed;
+	Date finished;
+	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getUser() {
+		return user;
+	}
+	public void setUser(String user) {
+		this.user = user;
+	}
+	public String getSource() {
+		return source;
+	}
+	public void setSource(String source) {
+		this.source = source;
+	}
+	public List<String> getTarget() {
+		return target;
+	}
+	public void setTarget(List<String> target) {
+		this.target = target;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getQuality() {
+		return quality;
+	}
+	public void setQuality(String quality) {
+		this.quality = quality;
+	}
+	public long getSymb() {
+		return symb;
+	}
+	public void setSymb(long symb) {
+		this.symb = symb;
+	}
+	public Date getFormed() {
+		return formed;
+	}
+	public void setFormed(Date formed) {
+		this.formed = formed;
+	}
+	public Date getFinished() {
+		return finished;
+	}
+	public void setFinished(Date finished) {
+		this.finished = finished;
+	}
+	public Order(String source, List<String> target, String type, String quality) {
+		super();
+		this.source = source;
+		this.target = target;
+		this.type = type;
+		this.quality = quality;
+	}
+	
+}

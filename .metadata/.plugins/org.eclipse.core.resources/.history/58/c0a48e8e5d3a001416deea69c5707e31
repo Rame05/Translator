@@ -1,0 +1,13 @@
+package pojos;
+import java.util.Date;
+public class Order {
+	long id=-1;
+	String user;
+	String source;
+	String[] target;
+	String type;
+	String quality;
+	long symb=-1;
+	Date formed;
+	Date finished;
+}

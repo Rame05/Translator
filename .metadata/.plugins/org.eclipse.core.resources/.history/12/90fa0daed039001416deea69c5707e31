@@ -1,0 +1,24 @@
+package controllers;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+@WebServlet(description = "A controller for handling user logins", urlPatterns = { "/clientReg" })
+public class ClientRegController extends HttpServlet {
+	private HttpSession session; 
+	private String url;
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//get our current session
+		session = request.getSession();
+		String jsonValue = request.getParameter("jsonValue");
+		System.out.printl(jsonValue);
+		
+	}
+	
+}

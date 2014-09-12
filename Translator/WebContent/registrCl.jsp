@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="bootstrap.css">
 
 		<link type="text/css" rel="stylesheet" href="css.css">
-		<script type="text/javascript" src="jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="jquery-1.11.1.js"></script>	
 		<script type="text/javascript" src="js.js"></script>
 		<script type="text/javascript" src="toTranslate.js"></script>
 	</head>

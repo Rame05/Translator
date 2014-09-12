@@ -12,6 +12,11 @@
 		<link type="text/css" rel="stylesheet" href="css.css">
 		<script type="text/javascript" src="jquery-1.11.1.js"></script>
 		<script type="text/javascript" src="js.js"></script>
+		
+		<script src="http://hayageek.github.io/jQuery-Upload-File/jquery.uploadfile.min.js"></script>
+		<link href="http://hayageek.github.io/jQuery-Upload-File/uploadfile.min.css" rel="stylesheet">
+			
+	
 </head>
 <body>
 <header>
@@ -67,6 +72,7 @@
 			<div class="left_column">
 				<h2>I want to translate:</h2>
 				<textarea id="sourceText"></textarea>
+				<div id="fileuploader">Upload</div>
 			</div>
 			<div class="right_column">
 				<h2 style="text-align:center">Your order:</h2>

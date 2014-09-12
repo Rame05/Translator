@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.101.v201201031437,"org.eclipse.jst.ws.jaxws.dom.integration",1410442561030
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1410442561065
+started,bundle,org.eclipse.jst.servlet.ui,1.1.502.v201202011054,"org.eclipse.jst.servlet.ui",1410442561214
+started,bundle,org.eclipse.jst.j2ee.ejb,1.1.505.v201202020200,"org.eclipse.jst.j2ee.ejb",1410442561273
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.501.v201111030500,"org.eclipse.jst.j2ee.jca",1410442561425
+started,bundle,org.eclipse.jst.jee.ejb,1.0.301.v201007070821,"org.eclipse.jst.jee.ejb",1410442561662
+started,bundle,org.eclipse.jst.jee.web,1.0.301.v201007070907,"org.eclipse.jst.jee.web",1410442561749
+started,bundle,org.eclipse.wb.core.lib,1.3.0.r37x201202052311,"org.eclipse.wb.core.lib",1410442562697
+started,bundle,org.eclipse.wb.core,1.3.0.r37x201202052311,"org.eclipse.wb.core",1410442563116
+error,log,,,"Core exception while retrieving the content description",1410442563405
+error,log,,,"Core exception while retrieving the content description",1410442563411
+error,log,,,"Core exception while retrieving the content description",1410442563418
+error,log,,,"Core exception while retrieving the content description",1410442563424
+error,log,,,"Core exception while retrieving the content description",1410442563429
+error,log,,,"Core exception while retrieving the content description",1410442563437
+error,log,,,"Core exception while retrieving the content description",1410442563581
+error,log,,,"Core exception while retrieving the content description",1410442563583
+error,log,,,"Core exception while retrieving the content description",1410442563586
+error,log,,,"Core exception while retrieving the content description",1410442563587
+error,log,,,"Core exception while retrieving the content description",1410442563589
+error,log,,,"Core exception while retrieving the content description",1410442563591
+error,log,,,"Core exception while retrieving the content description",1410442563592
+error,log,,,"Core exception while retrieving the content description",1410442563594
+error,log,,,"Core exception while retrieving the content description",1410442563596
+error,log,,,"Core exception while retrieving the content description",1410442563598
+error,log,,,"Core exception while retrieving the content description",1410442563599
+error,log,,,"Core exception while retrieving the content description",1410442563601
+error,log,,,"Core exception while retrieving the content description",1410442566132
+error,log,,,"Core exception while retrieving the content description",1410442566137
+error,log,,,"Core exception while retrieving the content description",1410442566679
+error,log,,,"Core exception while retrieving the content description",1410442566685
+error,log,,,"Core exception while retrieving the content description",1410442566686
+opened,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1410442566883
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1410442566932
+error,log,,,"Core exception while retrieving the content description",1410442566949
+error,log,,,"Core exception while retrieving the content description",1410442566951
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1410442568641
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410442600952
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1410442601853
+error,log,,,"Core exception while retrieving the content description",1410442601904
+error,log,,,"Core exception while retrieving the content description",1410442601906
+error,log,,,"Core exception while retrieving the content description",1410442601912
+error,log,,,"Core exception while retrieving the content description",1410442601915
+error,log,,,"Core exception while retrieving the content description",1410442602418
+error,log,,,"Core exception while retrieving the content description",1410442602422
+error,log,,,"Core exception while retrieving the content description",1410442602427
+error,log,,,"Core exception while retrieving the content description",1410442602430
+error,log,,,"Core exception while retrieving the content description",1410442602432
+error,log,,,"Core exception while retrieving the content description",1410442602459
+error,log,,,"Core exception while retrieving the content description",1410442602460
+error,log,,,"Core exception while retrieving the content description",1410442602462
+error,log,,,"Core exception while retrieving the content description",1410442602463
+error,log,,,"Core exception while retrieving the content description",1410442602465
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1410442604061
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1410442606589
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1410442608226
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442612427
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442615960
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410442615982
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r372_v20111101-0700,"org.eclipse.ltk.core.refactoring",1410442616760
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring",1410442617081
+opened,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1410442617278
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1410442617348
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1410442651291
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1410442679419
+executed,command,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.run",1410442680633
+started,bundle,org.eclipse.jst.server.tomcat.ui,1.1.200.v20100418,"org.eclipse.jst.server.tomcat.ui",1410442680721
+error,log,,,"Could not load the Tomcat server configuration at \\Servers\\Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.",1410442680843
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442680914
+error,log,,,"Could not load the Tomcat server configuration at \\Servers\\Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.",1410442681460
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442689148
+executed,command,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.run",1410442692400
+error,log,,,"Could not load the Tomcat server configuration at \\Servers\\Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.",1410442692406
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442692477
+error,log,,,"Could not load the Tomcat server configuration at \\Servers\\Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.",1410442692524
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442709682
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410442711152
+started,bundle,org.eclipse.datatools.connectivity.sqm.core,1.2.4.v201201131116,"org.eclipse.datatools.connectivity.sqm.core",1410442715508
+started,bundle,org.eclipse.datatools.connectivity,1.2.4.v201202041105,"org.eclipse.datatools.connectivity",1410442715543
+started,bundle,org.eclipse.datatools.modelbase.sql,1.0.5.v201110151330,"org.eclipse.datatools.modelbase.sql",1410442715628
+started,bundle,org.eclipse.datatools.sqltools.editor.core,1.0.1.v201201131129,"org.eclipse.datatools.sqltools.editor.core",1410442715728
+started,bundle,org.eclipse.datatools.enablement.ingres.ui,1.0.0.v201105270214,"org.eclipse.datatools.enablement.ingres.ui",1410442715728
+started,bundle,org.eclipse.datatools.sqltools.sqleditor,1.0.2.v201107221520,"org.eclipse.datatools.sqltools.sqleditor",1410442715744
+started,bundle,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.sqlscrapbook",1410442715744
+started,bundle,org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples,2.5.0.200810071,"org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples",1410442715777
+started,bundle,org.eclipse.datatools.sqltools.db.generic,1.0.0.v201107221520,"org.eclipse.datatools.sqltools.db.generic",1410442715836
+started,bundle,org.eclipse.datatools.enablement.sybase.ase,1.0.2.v201201131122,"org.eclipse.datatools.enablement.sybase.ase",1410442715837
+started,bundle,org.eclipse.datatools.sqltools.db.derby,1.0.0.v201107221520,"org.eclipse.datatools.sqltools.db.derby",1410442715846
+started,bundle,org.eclipse.datatools.sqltools.sql,1.0.1.v201110050515,"org.eclipse.datatools.sqltools.sql",1410442715945
+started,bundle,org.eclipse.datatools.enablement.sybase.asa.models,1.0.0.v201107221507,"org.eclipse.datatools.enablement.sybase.asa.models",1410442715969
+started,bundle,org.eclipse.datatools.sqltools.editor.core.ui,1.0.0.v201001150815,"org.eclipse.datatools.sqltools.editor.core.ui",1410442716091
+started,bundle,org.eclipse.datatools.enablement.sybase.models,1.0.0.v201010140307,"org.eclipse.datatools.enablement.sybase.models",1410442716148
+started,bundle,org.eclipse.datatools.sqltools.db.generic.ui,1.0.0.v200906020900,"org.eclipse.datatools.sqltools.db.generic.ui",1410442716195
+started,bundle,org.eclipse.datatools.sqltools.db.derby.ui,1.0.0.v200906020900,"org.eclipse.datatools.sqltools.db.derby.ui",1410442716195
+started,bundle,org.eclipse.datatools.connectivity.db.generic,1.0.1.v201107221459,"org.eclipse.datatools.connectivity.db.generic",1410442717220
+started,bundle,org.eclipse.datatools.connectivity.apache.derby,1.0.102.v201107221459,"org.eclipse.datatools.connectivity.apache.derby",1410442717274
+started,bundle,org.eclipse.datatools.enablement.msft.sqlserver,1.0.1.v201107221504,"org.eclipse.datatools.enablement.msft.sqlserver",1410442717277
+started,bundle,org.eclipse.datatools.enablement.sqlite,1.0.0.v201002041100,"org.eclipse.datatools.enablement.sqlite",1410442717280
+started,bundle,org.eclipse.datatools.enablement.sybase.asa,1.0.1.v201107221507,"org.eclipse.datatools.enablement.sybase.asa",1410442717301
+started,bundle,org.eclipse.datatools.sqltools.debugger.core,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.debugger.core",1410442717382
+started,bundle,org.eclipse.datatools.sqltools.debugger.core.ui,1.0.0.v201003161000,"org.eclipse.datatools.sqltools.debugger.core.ui",1410442717385
+opened,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1410442717519
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1410442717556
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410442757401
+error,log,,,"Core exception while retrieving the content description",1410442757604
+error,log,,,"Core exception while retrieving the content description",1410442757610
+error,log,,,"Core exception while retrieving the content description",1410442757616
+error,log,,,"Core exception while retrieving the content description",1410442757620
+error,log,,,"Core exception while retrieving the content description",1410442757621
+error,log,,,"Core exception while retrieving the content description",1410442757623
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1410442761541
+opened,editor,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.editor",1410442762423
+activated,editor,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.editor",1410442762466
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1410442764061
+executed,command,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.run",1410442765798
+error,log,,,"Could not load the Tomcat server configuration at \\Servers\\Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.",1410442765838
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442765894
+error,log,,,"Could not load the Tomcat server configuration at \\Servers\\Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.",1410442765934
+error,log,,,"Core exception while retrieving the content description",1410442766239
+error,log,,,"Core exception while retrieving the content description",1410442766241
+error,log,,,"Core exception while retrieving the content description",1410442766242
+error,log,,,"Core exception while retrieving the content description",1410442766244
+error,log,,,"Core exception while retrieving the content description",1410442766246
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442819308
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410442819325
+error,log,,,"Core exception while retrieving the content description",1410442819384
+error,log,,,"Core exception while retrieving the content description",1410442819385
+error,log,,,"Core exception while retrieving the content description",1410442819386
+error,log,,,"Core exception while retrieving the content description",1410442819394
+error,log,,,"Core exception while retrieving the content description",1410442819396
+error,log,,,"Core exception while retrieving the content description",1410442819462
+error,log,,,"Core exception while retrieving the content description",1410442819465
+error,log,,,"Core exception while retrieving the content description",1410442819468
+started,bundle,com.spket.js.xpc,1.6.6,"com.spket.js.xpc",1410442819569
+started,bundle,com.spket.ui,1.6.23,"com.spket.ui",1410442819587
+started,bundle,com.spket.xml,1.6.19,"com.spket.xml",1410442819588
+started,bundle,com.spket.core,1.6.18,"com.spket.core",1410442819634
+started,bundle,com.spket.mime,1.6.19,"com.spket.mime",1410442819698
+started,bundle,com.spket.laszlo,1.6.19,"com.spket.laszlo",1410442819699
+started,bundle,com.spket.as.core,1.6.17,"com.spket.as.core",1410442819779
+started,bundle,com.spket.js,1.6.23,"com.spket.js",1410442819800
+started,bundle,com.spket.svg,1.6.6,"com.spket.svg",1410442819839
+started,bundle,com.spket.wpfe,1.6.6,"com.spket.wpfe",1410442819866
+started,bundle,com.spket.xul,1.6.6,"com.spket.xul",1410442819896
+started,bundle,com.spket.ywt,1.6.6,"com.spket.ywt",1410442819916
+started,bundle,org.eclipse.ant.ui,3.5.101.v20120110-1739,"org.eclipse.ant.ui",1410442820029
+opened,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442820129
+activated,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442820167
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442820476
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442823275
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442826419
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1410442835352
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442876350
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1410442877342
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442878742
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442879820
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442880154
+error,log,,,"Could not load the Tomcat server configuration at \\Servers\\Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.",1410442880306
+error,log,,,"Core exception while retrieving the content description",1410442880930
+error,log,,,"Core exception while retrieving the content description",1410442880935
+error,log,,,"Core exception while retrieving the content description",1410442880940
+error,log,,,"Core exception while retrieving the content description",1410442880945
+error,log,,,"Core exception while retrieving the content description",1410442880949
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442884471
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442886790
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442890129
+error,log,,,"Could not load the Tomcat server configuration at \\Servers\\Tomcat v7.0 Server at localhost-config. The configuration may be corrupt or incomplete.",1410442890229
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442890303
+error,log,,,"Core exception while retrieving the content description",1410442890734
+error,log,,,"Core exception while retrieving the content description",1410442890735
+error,log,,,"Core exception while retrieving the content description",1410442890737
+error,log,,,"Core exception while retrieving the content description",1410442890738
+error,log,,,"Core exception while retrieving the content description",1410442890740
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442891546
+activated,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442893499
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1410442894081
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1410442895827
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1410442896122
+activated,editor,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.editor",1410442897461
+closed,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442897461
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442898578
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442899265
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1410442900156
+closed,editor,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.editor",1410442900157
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1410442901092
+closed,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1410442901092
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442902377
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442902756
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410442906489
+error,log,,,"Core exception while retrieving the content description",1410442906546
+error,log,,,"Core exception while retrieving the content description",1410442906550
+error,log,,,"Core exception while retrieving the content description",1410442906553
+error,log,,,"Core exception while retrieving the content description",1410442906571
+error,log,,,"Core exception while retrieving the content description",1410442906573
+error,log,,,"Core exception while retrieving the content description",1410442906598
+error,log,,,"Core exception while retrieving the content description",1410442906600
+error,log,,,"Core exception while retrieving the content description",1410442906601
+opened,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442906656
+activated,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442906691
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410442910795
+error,log,,,"Core exception while retrieving the content description",1410442910866
+error,log,,,"Core exception while retrieving the content description",1410442910869
+error,log,,,"Core exception while retrieving the content description",1410442910872
+error,log,,,"Core exception while retrieving the content description",1410442910881
+error,log,,,"Core exception while retrieving the content description",1410442910884
+error,log,,,"Core exception while retrieving the content description",1410442910887
+error,log,,,"Core exception while retrieving the content description",1410442910890
+error,log,,,"Core exception while retrieving the content description",1410442910891
+error,log,,,"Core exception while retrieving the content description",1410442910892
+error,log,,,"Core exception while retrieving the content description",1410442910893
+error,log,,,"Core exception while retrieving the content description",1410442910894
+error,log,,,"Core exception while retrieving the content description",1410442910897
+error,log,,,"Core exception while retrieving the content description",1410442910900
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1410442912657
+activated,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442914233
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410442915271
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1410442915564
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1410442915586
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1410442915653
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1410442915653
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1410442916833
+activated,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442918059
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1410442922304
+executed,command,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.run",1410442923243
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui",1410442925665
+opened,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1410442927433
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1410442927457
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1410442930133
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442932717
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442952288
+activated,editor,com.spket.xml,1.6.19,"com.spket.xml.editor.xmlEditor",1410442952319
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1410442956287
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410442969899
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443163248
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1410443167084
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443188934
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443222113
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443225029
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443243666
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1410443243694
+started,bundle,org.eclipse.pde.core,3.7.1.v20120103_r372,"org.eclipse.pde.core",1410443271529
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1410443275878
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443303938
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443309562
+error,log,,,"Unexpected runtime error while computing a text hover",1410443325054
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443352489
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443409763
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443415560
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1410443506243
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1410443578331

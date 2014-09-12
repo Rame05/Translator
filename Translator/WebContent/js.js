@@ -32,6 +32,18 @@ $( document ).ready(function () {
 	var enjectUp=true;
 	var id=document.getElementById('enject');
 	document.getElementsByClassName("sign-in")[0].roll=true;
+	$.ajax({
+	  type: "GET",
+	  url: 'clientReg',
+	  dataType: 'json',
+	  success: function () {
+	  	alert('Success!');
+	  }
+	});
+	$("#fileuploader").uploadFile({
+		url:"fileUpload",
+		fileName:"myfile"
+		});
 
 	$('body').animate({
 			scrollTop: 0
@@ -118,10 +130,12 @@ $( document ).ready(function () {
 		};
 		resultJson.theme = themeSrc;
 		resultJson.type = qualityValue;
+		var mydata=JSON.stringify(resultJson);
 		$.ajax({
 		  type: "POST",
-		  url: '/clientReg',
-		  data: resultJson,
+		  url: 'clientReg',
+		  contentType: "application/json; charset={CHARSET}",
+		  data: mydata,
 		  dataType: 'json',
 		  success: function () {
 		  	alert('Success!');

@@ -1,0 +1,15 @@
+package helpers;
+
+public class OrderHelper {
+		private PreparedStatement authenticateUserStatement;
+		public OrderHelper(){
+			try{
+				Class.forName("org.h2.Driver");
+				Connection conn = DriverManager.getConnection("jdbc:h2:~/translator", "sa", "");
+				authenticateUserStatement = conn.prepareStatement("select * from LOGINS where EMAIL=? and PASS=?");
+			} catch (Exception e) {
+				System.out.println(e.getClass().getName() + ": " + e.getMessage());
+			}
+		}
+
+}

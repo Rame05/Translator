@@ -1,0 +1,14 @@
+127.0.0.1 - - [08/Sep/2014:12:14:31 +0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:37 +0300] "GET /Translator/registrCl.jsp HTTP/1.1" 200 5521
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:37 +0300] "GET /Translator/images/logo_264x7.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:37 +0300] "GET /Translator/css.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:37 +0300] "GET /Translator/toTranslate.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:37 +0300] "GET /Translator/js.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:37 +0300] "GET /Translator/bootstrap.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:38 +0300] "GET /Translator/jquery-1.11.1.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:38 +0300] "GET /Translator/images/enject_small.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:38 +0300] "GET /Translator/images/arrow-icon.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:38 +0300] "GET /Translator/images/2-to-translate.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:38 +0300] "GET /Translator/images/1-to-translate.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:38 +0300] "GET /Translator/sansation_light.woff HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2014:12:14:38 +0300] "GET /Translator/images/3-to-translate.png HTTP/1.1" 304 -

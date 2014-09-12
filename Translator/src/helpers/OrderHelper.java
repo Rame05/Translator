@@ -1,0 +1,20 @@
+package helpers;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+public class OrderHelper {
+		private PreparedStatement firstWaveRegistration;
+		public OrderHelper(){
+			try{
+				Class.forName("org.h2.Driver");
+				Connection conn = DriverManager.getConnection("jdbc:h2:~/translator", "sa", "");
+				firstWaveRegistration = conn.prepareStatement("select * from LOGINS where EMAIL=? and PASS=?");
+			} catch (Exception e) {
+				System.out.println(e.getClass().getName() + ": " + e.getMessage());
+			}
+		}
+		
+
+}

@@ -1,0 +1,9 @@
+package controllers;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet(description = "A controller for handling user logins", urlPatterns = { "/clientReg" })
+public class ClientRegController extends HttpServlet {
+
+}
